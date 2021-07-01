@@ -1,2 +1,2 @@
 # animais-fantasticos
-projeto ficticio web
+projeto fictício Web Design
