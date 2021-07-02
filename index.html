@@ -4,17 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Animais Fantásticos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animais</title>
-
-    <script>
-        //por questão de acessibilidade para navegadores sem o javascript,
-        // é adicionado esta classe para saber se o mesmo está ativo e executar as
-        // funções. O sinal += faz com que a classe não escreva por cima caso
-        // existir ou houver um script adicionando oura classe juntamente.
-        document.documentElement.className += ' js';
-
-    </script>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700|Playfair+Display+SC" rel="stylesheet">
+    <script>document.documentElement.className += ' js';</script>
     <link rel="shortcut icon" href="./img/wof.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 
@@ -37,7 +30,7 @@
                 </li>
                 <li><a href="#faq">Faq</a></li>
                 <li><a href="#contato">Contato</a></li>
-                <li><a data-modal="abrir" href="login.html">Fazer Login</a></li>
+                <li><a data-modal="abrir" href="login.html">Fazer Login <span class="arrow-black"></span></a></li>
             </ul>
         </nav>
 
@@ -245,7 +238,7 @@
 
     <section class="modal-container" data-modal="container">
         <div class="modal">
-            <button data-modal="fechar" class="fechar">X</button>
+            <button data-modal="fechar" class="fechar"></button>
             <form action="">
                 <label for="email">Email</label>
                 <input type="text" for="email" id="email">
